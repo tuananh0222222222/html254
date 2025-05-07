@@ -1115,8 +1115,11 @@
     grid-column: span 5;
   }
 
-  .footer-brand {grid-column: auto;}
+  .footer-brand {
+    grid-column: auto;
+  }
+
   .footer-top .container {
-    grid-template-columns: 580px repeat(3,1fr);
+    grid-template-columns: 580px repeat(3, 1fr);
   }
 }
